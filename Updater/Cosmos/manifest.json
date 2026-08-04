@@ -1,0 +1,11 @@
+{
+    "name": "package_name_COSMOS",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "",
+    "dependencies": [
+        "MrSaltedBeef-33Granductor-1.0.4",
+        "Magic_Wesley-WesleysInteriors-4.1.15",
+        "DarthLilo-LevelMusicLib-1.0.2"
+    ]
+}

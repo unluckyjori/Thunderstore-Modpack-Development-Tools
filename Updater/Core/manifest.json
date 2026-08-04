@@ -1,0 +1,9 @@
+{
+    "name": "package_name_CORE",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "",
+    "dependencies": [
+        "mrov-LethalRichPresenceExperimental-0.2.0"
+    ]
+}

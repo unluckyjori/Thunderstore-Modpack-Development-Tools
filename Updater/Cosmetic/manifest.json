@@ -1,0 +1,10 @@
+{
+    "name": "package_name_COSMETICS",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "",
+    "dependencies": [
+        "x753-More_Suits-1.5.4",
+        "Dwarggo-Fashion_Company-1.3.1"
+    ]
+}

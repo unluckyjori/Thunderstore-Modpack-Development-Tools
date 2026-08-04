@@ -1,0 +1,12 @@
+{
+    "name": "package_name",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Description of the package",
+    "dependencies": [
+        "team_name-package_name_EXTRA-1.0.0",
+        "team_name-package_name_CORE-1.0.0",
+        "team_name-package_name_COSMOS-1.0.0",
+        "team_name-package_name_COSMETICS-1.0.0"
+    ]
+}
