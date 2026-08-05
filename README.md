@@ -2,7 +2,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/unluckyjori/Thunderstore-Modpack-Development-Tools?style=for-the-badge&logo=github) ![GitHub forks](https://img.shields.io/github/forks/unluckyjori/Thunderstore-Modpack-Development-Tools?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/unluckyjori/Thunderstore-Modpack-Development-Tools?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/unluckyjori/Thunderstore-Modpack-Development-Tools?style=for-the-badge&logo=github) ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-## Introductory Information
+## Information
 
 The Thunderstore Modpack Development Tools repository provides utilities designed to increase the productivity of Thunderstore modpack maintence. It removes the manual workload of individually updating package dependencies and uploading large modpacks. This collection of utilities is intended for modpack creators and maintainers who want to automate repetitive configuration edits and package publishing tasks.
 
@@ -18,15 +18,13 @@ The Thunderstore Modpack Development Tools repository provides utilities designe
 # 1. Clone the repository
 git clone https://github.com/unluckyjori/Thunderstore-Modpack-Development-Tools.git
 
-# 2. Open .bat files
+# 2a. Open .bat files
+Easy way to run scripts
 
-or
+# 2b. Run python files
+Alternatively, you can just run the python scripts
 
-# 2. Run python files
 python configuration_sync.py
-
-or
-
 python updater.py
 
 ```
