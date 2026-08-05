@@ -1,3 +1,3 @@
 @echo off
-python "%~dp0Configuration Sync\sync_enemies.py"
+python "%~dp0Configuration Sync\configuration_sync.py"
 pause

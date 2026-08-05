@@ -1,4 +1,4 @@
 @echo off
 cd /d "%~dp0Updater"
-python mod_manager.py
+python updater.py
 pause
