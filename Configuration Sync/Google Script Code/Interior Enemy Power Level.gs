@@ -1,8 +1,8 @@
 function exportInteriorEnemyPowerLevels() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Interior Enemy Configuration");
 
-  const moons = sheet.getRange("A145:A277").getValues().flat();
-  const risks = sheet.getRange("C145:C277").getValues().flat();
+  const moons = sheet.getRange("A145:A155").getValues().flat(); # Range for selection (Change if you add more rows/columns)
+  const risks = sheet.getRange("C145:C155").getValues().flat(); # Range for selection (Change if you add more rows/columns)
 
   const riskMap = {
     "D-": 4,
@@ -35,5 +35,5 @@ function exportInteriorEnemyPowerLevels() {
 
   const json = JSON.stringify(result, null, 2);
   const file = DriveApp.createFile("interior_enemy_power_levels.json", json, MimeType.PLAIN_TEXT);
-  Logger.log("✅ File created: " + file.getUrl());
+  Logger.log("File created: " + file.getUrl());
 }

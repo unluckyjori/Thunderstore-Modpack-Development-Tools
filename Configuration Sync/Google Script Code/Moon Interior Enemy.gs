@@ -1,6 +1,6 @@
 function exportReadableJSONWithSpacing() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Interior Enemy Configuration");
-  const data = sheet.getRange("A145:B277").getValues();
+  const data = sheet.getRange("A145:B155").getValues(); # Range for selection (Change if you add more rows/columns)
   let lines = [];
 
   lines.push("{");
@@ -27,5 +27,5 @@ function exportReadableJSONWithSpacing() {
 
   const output = lines.join("\n");
   const file = DriveApp.createFile("moons_readable_spaced.json", output, MimeType.PLAIN_TEXT);
-  Logger.log("✅ File created: " + file.getUrl());
+  Logger.log("File created: " + file.getUrl());
 }
